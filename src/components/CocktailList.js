@@ -1,6 +1,6 @@
 import React from "react";
 import Cocktail from "./Cocktail";
-import { findAllByTitle } from "@testing-library/react";
+
 export default function CocktailList({ cocktails, loading }) {
   if (loading) {
     return <h2 className="section-title">Loading...</h2>;
